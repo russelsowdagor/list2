@@ -1,0 +1,344 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html{
+font-size:62.5%; 
+}/* 10px */ 
+
+body {
+  font-family:'Galada', cursive; sans-serif;
+	font-size:100%;
+	width:100%;
+  height: 100%;
+
+}
+.container {
+    background: #efecec;
+    border: 5px solid #2dc52d;
+}
+*{ margin:0;
+    padding:0;
+}
+*{ -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -o-box-sizing:border-box;
+   -ms-box-sizing:border-box;
+   box-sizing:border-box;
+}
+.center{
+	text-align:center;
+ 
+}
+
+
+h2{
+
+}
+p{
+}
+
+.fix{overflow:hidden;}
+
+
+
+.row{
+	margin-left:-15px;
+  margin-right:-15px;
+	 }
+.area-padding{
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+/* start logo area */
+.logo-img {
+    margin-left: -2px;
+    margin-top: -2px;
+}
+.logo-img img{}
+.logo-area {
+    width: 134px;
+    height: 154px;
+    border: 2px solid #1ae61a;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+}
+/* end logo area */
+
+/* start baner area */
+.baner-area {
+    display: inline-block;
+    margin-left: 20px;
+    width: 700px;
+    height: 150px;
+    text-align: center;
+    background-color: green;
+    position: relative;
+   
+}
+.baner-area h1 {
+    font-size: 7rem;
+    color: #fff;
+    margin-bottom: -10px;
+}
+.baner-area h2 {
+    font-size: 3.8rem;
+    color: #fff;
+}
+
+/* end baner area */
+
+/* start item-list area */
+#item-list{}
+.item-list-area {
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.col-md-2{}
+.table-size {
+    width: 130px;
+    height: 450px;
+
+   
+}
+.table-size th {
+    font-size: 2rem;
+    text-align: center;
+    color: #09d836;
+    background: #80000c;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.table-size tr td {
+    width: 50px;
+    border: 1px solid #2dc52d;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:  #fff;
+    background-color: green;
+}
+
+.table-size tr td:hover{
+  color :red;
+  background-color: #fff;
+}
+
+.table-size tr td:active{
+  color :red;
+  background-color: #fff;
+}
+
+/* end item-list area */
+/* start-list-hover-show-img*/
+.alu-img {
+    background-image: url(../img/alu-img.jpg);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -108px;
+    left: 200px;
+    visibility: hidden;
+}
+
+.table-size tr td:hover .alu-img{
+    visibility: visible;
+}
+                        /* end alu-img*/
+.kakrol-img {
+    background-image: url(../img/kakrol-img.jpg);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -108px;
+    left: 200px;
+    visibility: hidden;
+}
+
+.table-size tr td:hover .kakrol-img{
+    visibility: visible;
+}
+                            /*end kakrol-img*/
+
+
+
+
+
+
+
+.ata-img{
+   background-image: url(../img/ata-img.png);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -108px;
+    left: -76px;
+    visibility: hidden;
+}
+
+.table-size tr td:hover .ata-img{
+    visibility: visible;
+}
+                              /*end ata-img*/
+
+
+
+/* end-list-hover-show-img*/
+
+.select-item-area {
+    width: 96%;
+    padding: 10px;
+    height: 300px;
+   
+}
+
+.option-table-size{
+
+}
+.option-table-size tr{
+  
+}
+.option-table-size tr td {
+    border: 1px solid #2dc52d;
+    width: 235px;
+    height: 278px;
+}
+.company-name {
+    width: 100%;
+    height: 289px;
+    margin-top: -20px;
+}
+.company-name h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    background: #80000c;
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    color: green;
+}
+.quantity{
+    width: 100%;
+    height: 289px;
+    margin-top: -20px;
+  }
+.quantity h2{
+    font-size: 2.5rem;
+    text-align: center;
+    background: #80000c;
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    color: green;
+}
+.amount{
+    width: 100%;
+    height: 289px;
+    margin-top: -20px;
+}
+.amount h2{
+    font-size: 2.5rem;
+    text-align: center;
+    background: #80000c;
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    color: green;
+}
+.ordar{
+    width: 100%;
+    height: 206px;
+}
+.ordar h2{
+    font-size: 2.5rem;
+    text-align: center;
+    background: #80000c;
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    color: green;
+}
+.ordar h3 {
+    font-size: 2rem;
+    text-align: center;
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: 93px;
+    color: #fff;
+    padding-top: 5px;
+    font-weight: 400;
+}
+
+
+/*start-select-option-chosen-online-css*/
+.chosen-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 200px !important;
+    margin-left: 15px;
+    text-align: center;
+}
+.chosen-container-single .chosen-single {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 0 0 0 8px;
+    height: 38px;
+    border: 1px solid #08801c;
+    border-radius: 5px;
+    background-color: #fff;
+    background: -webkit-gradient(linear,50% 0,50% 100%,color-stop(20%,#fff),color-stop(50%,#f6f6f6),color-stop(52%,#eee),color-stop(100%,#f4f4f4));
+    background: -webkit-linear-gradient(#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
+    background: -moz-linear-gradient(#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
+    background: -o-linear-gradient(#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
+    background: green;
+    /* background-clip: padding-box; */
+    /* box-shadow: 0 0 3px #fff inset, 0 1px 1px rgba(0,0,0,.1); */
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 38px;
+}
+.chosen-container .chosen-results {
+    color: #fff;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0 4px 4px 0;
+    padding: 0 0 0 4px;
+    max-height: 165px;
+    background-color: green;
+    -webkit-overflow-scrolling: touch;
+}
+.chosen-container-single .chosen-single div b {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/dorpdown-img.png);
+    width: 18px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.size{} 
